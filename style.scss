@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    background-color: #A2DDCB;
+}
+.container {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    width: 280px;
+    height: 550px;
+    border-radius: 50px;
+    margin: auto;
+    background-color: #00463C;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    .main-icon {
+        margin: 70px auto;
+        text-align: center;
+        color: #FFC987;
+    }
+    hr {
+        margin: 5px 5px 25px 5px;
+    }
+    form {
+        width: 260px;
+        height: 300px;
+        margin: auto;
+        .email {
+            // background-color: yellow;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            i {
+                margin: 0 20px;
+                color: #FFC987;
+            }
+            input {
+                font-size: 32px;
+                margin: 0;
+                width: 70%;
+                background-color: #00463C;
+                border: none;
+                caret-color: white;
+                &::placeholder {
+                    font-size: 16px;
+                    color: #A3C3BF;
+                }
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+        .password {
+            // background-color: yellow;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            i {
+                margin: 0 20px;
+                color: #FFC987;
+            }
+            input {
+                font-size: 32px;
+                margin: 0;
+                width: 70%;
+                background-color: #00463C;
+                border: none;
+                caret-color: white;
+                &::placeholder {
+                    font-size: 16px;
+                    color: #A3C3BF;
+                }
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+        .login {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            >a {
+                font-family: monospace;
+                color: #A3C3BF;
+                text-decoration: none;
+            }
+            p {
+                margin: 0 auto;
+                font-family: monospace;
+                color: #A3C3BF;
+                text-decoration: none;
+                a {
+                    font-family: monospace;
+                    color: #FFC987;
+                    text-decoration: none;
+                    font-weight: 800;
+                }
+            }
+            button {
+                margin: 20px auto;
+                width: 90%;
+                height: 40px;
+                background-color: #FFC987;
+                color: #00463C;
+                font-weight: 800;
+                border-radius:10px;
+            }
+        }
+    }
+}
